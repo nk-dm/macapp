@@ -64,3 +64,16 @@ Prints the following line of text:
 ```
 usage: macapp -bin binary [-out Out.app] [-ico ico.icns] [-inf info.plist] [-res resource folder] [-name Myapp] [-appid com.eg.Myapp] [-ver 1.2.3a4] [--edit-info] [--override]
 ```
+
+### `--0`
+Does nothing. It can be used to symbolize that an argument is not specified.
+
+The example
+```
+./macapp.sh -bin MyApp -inf --0
+```
+will be treated like
+```
+./macapp.sh -bin MyApp
+```
+and the default Info.plist will be generated.
