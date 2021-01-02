@@ -55,17 +55,17 @@ If the path is relative to the binary(which it should be), then this folder's pa
 This will override the App-Bundle(`.app`-file, see `-out`) in case it alredy exsists.
 
 
-### `--edit-info`
+### `--edit-info` (optional)
 This will open the `Info.plist` with the default application at the end of the script and allows you to edit far more of [the application's attributes](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009248-SW1).
 
 
-### `--help`
+### `--help` (optional)
 Prints the following line of text:
 ```
 usage: macapp -bin binary [-out Out.app] [-ico ico.icns] [-inf info.plist] [-res resource folder] [-name Myapp] [-appid com.eg.Myapp] [-ver 1.2.3a4] [--edit-info] [--override]
 ```
 
-### `--0`
+### `--0` (optional)
 Does nothing. It can be used to symbolize that an argument is not specified.
 
 The example
