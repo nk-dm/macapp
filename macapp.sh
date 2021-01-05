@@ -164,8 +164,6 @@ else
 	echo "\t<string>$name</string>" >>"$infopath"
 	echo "\t<key>CFBundleName</key>" >>"$infopath"
 	echo "\t<string>$short_name</string>" >>"$infopath"
-	echo "\t<key>CFBundleDisplayName</key>" >>"$infopath"
-	echo "\t<string>$name</string>" >>"$infopath"
 	echo "\t<key>NSPrincipalClass</key>" >>"$infopath"
 	echo "\t<string>NSApplication</string>" >>"$infopath"
 	if [ ! "$appid" = "" ]; then
